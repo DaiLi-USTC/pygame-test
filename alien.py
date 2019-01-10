@@ -16,4 +16,4 @@ class Alien(Sprite):
         ai_settings.enermy_number += 1
 
     def blitme(self):
-        self.screen.blit(self.image, self.rect)
+        self.screen.blit(self.image, self.rect)#哭唧唧
