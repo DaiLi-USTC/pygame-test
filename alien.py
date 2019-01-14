@@ -11,9 +11,10 @@ class Alien(Sprite):
 
         self.rect.x = posx
         self.rect.y = posy
+        self.direction = 2
 
         self.x = float(self.rect.x)
         ai_settings.enermy_number += 1
 
     def blitme(self):
-        self.screen.blit(self.image, self.rect)#哭唧唧
+        self.screen.blit(self.image, self.rect)
